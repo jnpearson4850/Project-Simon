@@ -11,50 +11,65 @@ body {
     /* https://giphy.com/gifs/night-sky-blAPxmRQNIT72   c and hobbs background */
 }
 
-.rings {
-
-}
-#circle1 {
+.container {
     display: flex;
-  height: 25px;
-  width: 25px;
-  background-color: white;
+    justify-content: center;
+}
+.rings {
+    display: grid;
+    grid-template-columns: repeat(10,10fr);
+    grid-gap: 15px;
+}
+
+#circle1 {
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
+  background-color: green;
+  grid-column-start: 3;
+  grid-row: 2;
   
 
 }
 
 #circle2{
-    display: flex;
-  height: 25px;
-  width: 25px;
-  background-color: white;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
+  background-color: red;
+  grid-column-start: 10;
+  grid-column-start: 4;
+  grid-row-start: 3;
 
 }
 #circle3 {
-    display: flex;
-  height: 25px;
-  width: 25px;
-  background-color: white;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
+  background-color: blue;
+  grid-column-start: 5;
+  grid-row-start: 2;
+
 
 
 }
 #circle4 {
-    display: flex;
-  height: 25px;
-  width: 25px;
-  background-color: white;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
+  background-color: orange;
+  grid-column-start: 6;
+  grid-row-start: 3;
 
 }
 #circle5 {
-    display: flex;
-  height: 25px;
-  width: 25px;
-  background-color: white;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
+  background-color: purple;
+  grid-column-start: 2;
+  grid-column-start: 7;
+  grid-row-start: 2;
 
 }
 .Start{
