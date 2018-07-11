@@ -1,0 +1,70 @@
+header {
+    color: white;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    /* font-family: 'Righteous', cursive; */
+    font-size: 50px;
+}
+
+body {
+    background-color: black;
+    /* https://giphy.com/gifs/night-sky-blAPxmRQNIT72   c and hobbs background */
+}
+
+.rings {
+
+}
+#circle1 {
+    display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  
+
+}
+
+#circle2{
+    display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+#circle3 {
+    display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+
+
+}
+#circle4 {
+    display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+#circle5 {
+    display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+.Start{
+
+}
+.Reset {
+
+}
+
+#footer{
+
+}
+
