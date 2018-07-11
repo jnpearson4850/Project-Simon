@@ -8,38 +8,49 @@ header {
 
 body {
     background-color: black;
+    display: inline-block;
     /* https://giphy.com/gifs/night-sky-blAPxmRQNIT72   c and hobbs background */
+}
+/* need to figure a way out to align the content in the center, added container element for that reason */
+.Level {
+  display: flex;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: 12px;
+  background: white;
+  padding: 5px;
+  border: 1px solid gray;
+  margin: 20px 43% 20px 43%;
 }
 
 .container {
-    display: flex;
+    display: grid;
+    align-items: center;
+    align-content: center;
     justify-content: center;
 }
 .rings {
     display: grid;
     grid-template-columns: repeat(10,10fr);
-    grid-gap: 15px;
+    grid-gap: 5px;
+    margin: 100px 350px;
 }
-
+/* will ahve to find way to fade colros and light up when javascript cues it*/
 #circle1 {
   height: 125px;
   width: 125px;
   border-radius: 50%;
   background-color: green;
   grid-column-start: 3;
-  grid-row: 2;
-  
-
+  grid-row: 3;
 }
-
 #circle2{
   height: 125px;
   width: 125px;
   border-radius: 50%;
   background-color: red;
-  grid-column-start: 10;
   grid-column-start: 4;
-  grid-row-start: 3;
+  grid-row-start: 4;
 
 }
 #circle3 {
@@ -48,10 +59,7 @@ body {
   border-radius: 50%;
   background-color: blue;
   grid-column-start: 5;
-  grid-row-start: 2;
-
-
-
+  grid-row-start: 3;
 }
 #circle4 {
   height: 125px;
@@ -59,7 +67,7 @@ body {
   border-radius: 50%;
   background-color: orange;
   grid-column-start: 6;
-  grid-row-start: 3;
+  grid-row-start: 4;
 
 }
 #circle5 {
@@ -67,19 +75,32 @@ body {
   width: 125px;
   border-radius: 50%;
   background-color: purple;
-  grid-column-start: 2;
   grid-column-start: 7;
-  grid-row-start: 2;
+  grid-row-start: 3;
 
+}
+
+.function{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 100px;
 }
 .Start{
-
+  text-align: center;
+  font-size: 12px;
+  background: white;
+  padding: 5px;
+  border: 1px solid gray;
+  margin: 20px 43% 20px 43%;
 }
 .Reset {
-
+  text-align: center;
+  font-size: 12px;
+  background: white;
+  padding: 5px;
+  border: 1px solid gray;
+  margin: 20px 43% 20px 43%;
 }
 
-#footer{
-
-}
 
