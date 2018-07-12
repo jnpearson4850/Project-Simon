@@ -1,40 +1,58 @@
-var level = document.getElementsByClassName(level)
-var rings = document.getElementsByClassName(rings)
-var circle1 = document.getElementsByClassName(circle1)
-var circle2 = document.getElementsByClassName(circle2)
-var circle3 = document.getElementsByClassName(circle3)
-var circle4 = document.getElementsByClassName(circle4)
-var circle5 = document.getElementsByClassName(circle5)
-var start = document.getElementsByClassName(start)
-var reset = document.getElementsByClassName(reset)
+// // all posiiable var's
 
-var sequence = ["green", "red", "blue", "orange", "purple"]
+var level = document.querySelector(".level")
+var rings = document.querySelector(".rings")
+var green = document.querySelector("#circle1")
+var red = document.querySelector("#circle2")
+var blue = document.querySelector("#circle3")
+var orange = document.querySelector("#circle4")
+var purple = document.querySelector("#circle5")
+var start = document.querySelector("#start")
+var reset = document.querySelector("#reset")
 
-function random(sequence) {
-    for (var i = 0; i < sequence.length; i++)
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// start.addEventListener("click", handleClickEvent)
-
-// function handleClickEvent () {
-// console.log("I was clicked")
+// //start game
+// function startGame() {
+//     resetGame();
 // }
-// const resetButton = document.getElementsByClassName('.reset')
-// resetButton.addEventListener("click", handleClickEvent)
 
-// function handleClickEvent () {
-//     document.body.style.background = "bule";
+// function resetGame() {
+
 // }
+
+//random genarator of colors 
+var randomArray = []
+let colors = ["green", "red", "blue", "orange", "purple"];
+for ( i = 0; i < colors.length; i++) {
+randomArray.push(colors[Math.floor(Math.random() *  colors.length)]
+)}
+
+// var color = colors[Math.floor(Math.random()*colors.length)];
+// 
+// click events
+start.addEventListener ('click', function() {
+alert('Begin Game')})
+reset.addEventListener('click',function() {
+alert('Start Over')})
+circle5.addEventListener('click', function() {
+alert('you clicked purple')})
+circle4.addEventListener('click', function() {
+alert('you clicked orange')})
+circle3.addEventListener('click', function() {
+alert('you clicked blue')})
+circle2.addEventListener('click', function() {
+alert('you clicked red')})
+circle1.addEventListener('click', function() {
+ alert('you clicked green')})
+
+
+// }
+//color animations
+
+
+
+
+
+
+
+
 
