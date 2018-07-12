@@ -9,7 +9,10 @@ header {
 body {
     background-color: black;
     display: inline-block;
-    /* https://giphy.com/gifs/night-sky-blAPxmRQNIT72   c and hobbs background */
+    background-image: url("https://media.giphy.com/media/blAPxmRQNIT72/giphy.gif");
+    background-repeat: no-repeat,repeat;
+    background-position: center;
+    background-size: cover;
 }
 /* need to figure a way out to align the content in the center, added container element for that reason */
 .Level {
