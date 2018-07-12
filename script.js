@@ -10,28 +10,22 @@ var purple = document.querySelector("#circle5")
 var start = document.querySelector("#start")
 var reset = document.querySelector("#reset")
 
-// //start game
-// function startGame() {
-//     resetGame();
-// }
 
-// function resetGame() {
 
-// }
-
-//random genarator of colors 
+//start game 
 var randomArray = []
 let colors = ["green", "red", "blue", "orange", "purple"];
+function startGame () {
 for ( i = 0; i < colors.length; i++) {
 randomArray.push(colors[Math.floor(Math.random() *  colors.length)]
 )}
+}
 
-// var color = colors[Math.floor(Math.random()*colors.length)];
 // 
 // click events
-start.addEventListener ('click', function() {
-alert('Begin Game')})
-reset.addEventListener('click',function() {
+// start.addEventListener ('click', function() {
+// alert('Begin Game')})
+reset.addEventListener('click', function() {
 alert('Start Over')})
 circle5.addEventListener('click', function() {
 alert('you clicked purple')})
@@ -45,7 +39,7 @@ circle1.addEventListener('click', function() {
  alert('you clicked green')})
 
 
-// }
+
 //color animations
 
 

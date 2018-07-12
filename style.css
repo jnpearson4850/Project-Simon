@@ -10,7 +10,6 @@ body {
     background-color: black;
     display: inline-block;
     background-image: url("https://media.giphy.com/media/ClAWDzrI7lgpG/giphy.gif");
-    /* background: rgb(69, 51, 51); */
     background-repeat: no-repeat,repeat;
     background-position: center;
     background-size: cover;
