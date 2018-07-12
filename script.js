@@ -20,23 +20,32 @@ for ( i = 0; i < colors.length; i++) {
 randomArray.push(colors[Math.floor(Math.random() *  colors.length)]
 )}
 }
+var userClick=  [];
+function buttonClick() {
 
-// 
+}
+
+
 // click events
 // start.addEventListener ('click', function() {
 // alert('Begin Game')})
 reset.addEventListener('click', function() {
 alert('Start Over')})
-circle5.addEventListener('click', function() {
-alert('you clicked purple')})
-circle4.addEventListener('click', function() {
-alert('you clicked orange')})
-circle3.addEventListener('click', function() {
-alert('you clicked blue')})
-circle2.addEventListener('click', function() {
-alert('you clicked red')})
-circle1.addEventListener('click', function() {
- alert('you clicked green')})
+circle5.addEventListener('click', buttonClick)     
+// {
+// alert('you clicked purple')})
+circle4.addEventListener('click', buttonClick)
+// {
+// alert('you clicked orange')})
+circle3.addEventListener('click', buttonClick) 
+// {
+// alert('you clicked blue')})
+circle2.addEventListener('click', buttonClick)
+// {
+// alert('you clicked red')})
+circle1.addEventListener('click', buttonClick)
+// {
+//  alert('you clicked green')})
 
 
 
