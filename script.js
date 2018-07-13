@@ -12,7 +12,7 @@ var purple = document.querySelector('#circle5')
 var start = document.querySelector('#start')
 var reset = document.querySelector('#reset')
 
-//event listener
+//event listener for buttons
 reset.addEventListener('click', function() {
     location.reload('Start Over')})
 //  rings.addEventListener ('click', userButtonClick())
@@ -32,11 +32,17 @@ reset.addEventListener('click', function() {
      console.log('clicked green')
  })
 
-// start game functoin. rigth now console.logs the click
-// and generates a random sequence of colors. 
-// added con.log and now numbers populate in the console
+ var generateMove = []
+ let colors = ["green", "red", "blue", "orange", "purple"];
+ function startGame () {
+ 
+     for (let i = 0; i < colors.length; i++) {
+     generateMove.push(colors[Math.floor(Math.random() * colors.length)]
+ )}
+ console.log(generateMove)
+ }
 
-
+//this was my first attmpt at makeing user clicks get logged
 // function userButtonClick() { 
 //     var source = ();
 //     if (source.id === "circle1"){
@@ -60,19 +66,13 @@ reset.addEventListener('click', function() {
 //         userResponse.push (source.id);
 //     }
 // }
-// generate move
-var generateMove = []
-let colors = ["green", "red", "blue", "orange", "purple"];
-function startGame () {
 
-    for (let i = 0; i < colors.length; i++) {
-    generateMove.push(colors[Math.floor(Math.random() * colors.length)]
-)}
-console.log(generateMove)
-}
+
+// generate move- this works as long as the event listners up top have a function
 
 
 
+// this was my attempt at taking card game and making it work for me
 // var circles = ["green", "red", "blue", "orange", "purple"];
 // var circlesInPlay = []
 // //check click match
@@ -123,15 +123,6 @@ console.log(generateMove)
 
 
 
-// // //compare user click to game pattern
-// // belive this will register the events
-// // but need to compare the array above to this
-// // function playerClick() {
-// // rings.addEventListener('click', function (evt) {
-// //     if(!event.target.matches('.click-me')) return
-// //     event.preventDefault();
-// //     console.log('event clicked');
-// // },false)}
 
 
 
@@ -146,7 +137,6 @@ console.log(generateMove)
 
 
 
-//color animations
 
 
 

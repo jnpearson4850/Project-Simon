@@ -14,18 +14,6 @@ body {
     background-position: center;
     background-size: cover;
 }
-/* need to figure a way out to align the content in the center, added container element for that reason */
-/* .level {
-  display: flex;
-  justify-content: flex-end;
-  text-align: left;
-  font-size: 12px;
-  color: white;
-  background: rgba(30, 29, 29, 0.6);
-  padding: 5px;
-  border: 1px solid gray;
-  margin: 20px 43% 20px 43%;
-} */
 
 .container {
     display: grid;
@@ -39,7 +27,6 @@ body {
     grid-gap: 5px;
     margin: 100px 350px;
 }
-/* will ahve to find way to fade colros and light up when javascript cues it*/
 #circle1 {
   height: 125px;
   width: 125px;
