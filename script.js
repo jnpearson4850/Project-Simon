@@ -12,7 +12,7 @@ var reset = document.querySelector('#reset')
 //event listners
 
 reset.addEventListener('click', function() {
-    console.log('Start Over')})
+    location.reload('Start Over')})
  circle5.addEventListener('click', function() {
     console.log('purple')})
  circle4.addEventListener('click', function() {
