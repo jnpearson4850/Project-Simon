@@ -1,51 +1,61 @@
 // // all posiiable var's
 
-var level = document.querySelector(".level")
-var rings = document.querySelector(".rings")
-var green = document.querySelector("#circle1")
-var red = document.querySelector("#circle2")
-var blue = document.querySelector("#circle3")
-var orange = document.querySelector("#circle4")
-var purple = document.querySelector("#circle5")
-var start = document.querySelector("#start")
-var reset = document.querySelector("#reset")
+var level = document.querySelector('.level')
+var rings = document.querySelector('.rings')
+var green = document.querySelector('#circle1')
+var red = document.querySelector('#circle2')
+var blue = document.querySelector('#circle3')
+var orange = document.querySelector('#circle4')
+var purple = document.querySelector('#circle5')
+var start = document.querySelector('#start')
+var reset = document.querySelector('#reset')
+//event listners
 
+reset.addEventListener('click', function() {
+    console.log('Start Over')})
+ circle5.addEventListener('click', function() {
+    console.log('purple')})
+ circle4.addEventListener('click', function() {
+    console.log('orange')})
+ circle3.addEventListener('click', function() {
+    console.log('blue')})
+ circle2.addEventListener('click', function() {
+    console.log('red')})
+ circle1.addEventListener('click', function() {
+     console.log('green')})
 
+//  start game functoin. rigth now console.logs the click
+// and generates a random sequence of colors. 
 
-//start game 
-var randomArray = []
+var generateMove = []
 let colors = ["green", "red", "blue", "orange", "purple"];
 function startGame () {
 for ( i = 0; i < colors.length; i++) {
-randomArray.push(colors[Math.floor(Math.random() *  colors.length)]
+    console.log (generateMove.push(colors[Math.floor(Math.random() * colors.length)])
 )}
 }
-var userClick=  [];
-function buttonClick() {
+// //compare user click to game pattern
+// belive this will register the events
+// but need to compare the array above to this
 
-}
+
+function playerClick() {
+rings.addEventListener('click', function (evt) {
+    if(!event.target.matches('.click-me')) return
+    event.preventDefault();
+    console.log('event clicked');
+},false)}
 
 
-// click events
-// start.addEventListener ('click', function() {
-// alert('Begin Game')})
-reset.addEventListener('click', function() {
-alert('Start Over')})
-circle5.addEventListener('click', buttonClick)     
-// {
-// alert('you clicked purple')})
-circle4.addEventListener('click', buttonClick)
-// {
-// alert('you clicked orange')})
-circle3.addEventListener('click', buttonClick) 
-// {
-// alert('you clicked blue')})
-circle2.addEventListener('click', buttonClick)
-// {
-// alert('you clicked red')})
-circle1.addEventListener('click', buttonClick)
-// {
-//  alert('you clicked green')})
+
+
+
+
+
+
+
+
+
 
 
 
