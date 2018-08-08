@@ -5,16 +5,16 @@ header {
     /* font-family: 'Righteous', cursive; */
     font-size: 75px;
 }
-
 body {
     background-color: black;
     display: inline-block;
     background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
+    max-width: 100%;
     background-repeat: no-repeat,repeat;
     background-position: center;
     background-size: cover;
+    cursor: crosshair;
 }
-
 .container {
     display: grid;
     align-items: center;
