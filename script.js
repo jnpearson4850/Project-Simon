@@ -6,6 +6,9 @@ let blue = document.querySelector('#circle3')
 let orange = document.querySelector('#circle4')
 let purple = document.querySelector('#circle5')
 let reset = document.querySelector('#reset')
+let modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
 
 //event listener for buttons
 reset.addEventListener('click', function () {
@@ -17,10 +20,31 @@ blue.addEventListener('click', blueClicked)
 red.addEventListener('click', redClicked)
 green.addEventListener('click', greenClicked)
 
+//dircetions modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 // event listeners for start button to  generate random order of colors
 let colors = ["green", "red", "blue", "orange", "purple"];
 let cpuMoves = [];
+function startGame() {
+    var generateMove = [];
+    for (let i = 0; i < colors.length; i++) {
+        generateMove.push(colors[Math.floor(Math.random() * colors.length)])
+    }
+    cpuMoves = generateMove
+    console.log(cpuMoves)
+}
+// next level function. same as startGame
 function startGame() {
     var generateMove = [];
     for (let i = 0; i < colors.length; i++) {
@@ -82,11 +106,11 @@ function compareCLicks () {
     var userClicksNumber = userClicks.length;
     for (var i = 0; i < userClicksNumber; i++){
         if(userClicks[i] !== cpuMoves[i]){
-            alert("wrong")
+            alert("Wrong, press Try Again")
         }
 
     } 
     if (cpuMoves[i] === userClicks[i] ) {
-        alert("Great Job! Press Start to continue playing")
+        alert("Great Job! Press TRY AGAIN then NEXT LEVEL to continue playing")
     }
 }
