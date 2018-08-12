@@ -1,29 +1,32 @@
 # Project-Simon
-**Simon-Memory Game Project 1**
+**Simon Says Memory Game**
+Link to the live Page- https://jnpearson4850.github.io/Project-Simon/
 
 **Description**
 
+
 This project is a simple Simon says game. Where the computer generates a random assortment
 of colors. It is then your turn to copy what the computer iterated. You continue to advance until 
-you get one round wrong. At that point the computer logs your high score. 
+you get one round wrong. At that point turn the controls over to a free and see who gets futher. 
 
-This project solves the age-old problem of forgetting where you left your keys....By making you exercise that 
-memory muscle. Science!!!
+
 
 **Brief Example**
 
-Unfortunately I do not have an example. I was only able to complete the HTML/CSS and add function to the "Start and "Try again" button. 
+Here is a static screen shot of the game. 
+
+![alt text](Screen Shot 2018-08-10 at 11.32.46 PM.png "Simon Says Screen grab")
+
 
 **List of Features**
 
-This game has a sweet background and a cool formation for the rings. 
+This game has a sweet background and a cool formation for the rings. The user can click on "directions" if at any point they forget what to do. 
 
 **List of Technologies used**
 
-HTML/CSS/Javascript
+HTML5/CSS3/Javascript
 
 **Getting Started**
 
-Very simple. You click the "Start Game" button. After that you do what Simon Says. In theory it would have 
-tracked how many levels you completed and gave you a high score. 
+User clicks on "Start Game" and that point the computer generates a random assortment of colors. The user matches the random array by clicking on the colors in order. If they get the array right, an alert box will pop up saying "Great Job, click try again then next level." if they get the array wrong an alert box will appear saying "Wrong, click try again to start over."
 
