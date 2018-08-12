@@ -25,13 +25,13 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
     border-radius: 25px;
-
-
 }
 .modal {
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
     position: fixed;
     text-align: center;
     top: 50%;
@@ -77,18 +77,29 @@ body {
     margin: 100px 350px;
     
 }
+.playing:hover {
+    border-color: whitesmoke;
+    box-shadow: 0 0 10rem whitesmoke;
+  }
+ 
+/* .dim {
+    transform: scale(2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10rem whitesmoke;
+} */
 #circle1 {
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   border: 5px solid green;
   border-radius: 50%;
-  background-color: rgba(0, 128, 0, .2);
+  background-color: rgba(0, 128, 0, .5);
   grid-column-start: 3;
   grid-row: 3;
 }
+
 #circle2{
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
   border: 5px solid red;
   border-radius: 50%;
   background-color: rgba(255,0,0,.2);
@@ -97,8 +108,8 @@ body {
 
 }
 #circle3 {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
   border: 5px solid blue;
   border-radius: 50%;
   background-color: rgba(0,0,255,.2);
@@ -106,8 +117,8 @@ body {
   grid-row-start: 3;
 }
 #circle4 {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
   border: 5px solid orange;
   border-radius: 50%;
   background-color: rgba(255,165,0,.2);
@@ -116,16 +127,14 @@ body {
 
 }
 #circle5 {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
   border: 5px solid purple;
   border-radius: 50%;
   background-color: rgba(128,0,128,.2);
   grid-column-start: 7;
   grid-row-start: 3;
-
 }
-
 .function{
     display: flex;
     align-items: center;
@@ -141,10 +150,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
     margin: 250px 400px 0px 0px;
     border-radius: 25px;
-
-
 }
 #nextLevel {
     background-color:rgba(236, 19, 19, 0.5); 
@@ -155,6 +163,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
     margin: 250px 0px 0px 0px;
     border-radius: 25px;
 }
@@ -167,6 +176,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
     margin: 250px 0px 0px 400px;
     border-radius: 25px;
 

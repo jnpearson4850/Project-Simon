@@ -43,7 +43,7 @@ function startGame() {
     }
     cpuMoves = generateMove
     console.log(cpuMoves)
-}
+} 
 // next level function. same as startGame
 function startGame() {
     var generateMove = [];
@@ -53,27 +53,21 @@ function startGame() {
     cpuMoves = generateMove
     console.log(cpuMoves)
 }
-// buttons are now an array
-// let buttons = [green, red, blue, orange, purple];
-
-
 //array to store user clicks. 
 let userClicks = [];
-
 //function to generate light
 function lightUp(e) {
-    e.target.classList.add('clicked')
+    e.target.classList.add('playing')
 }
-function dim(e) {
-    e.target.classList.remove('clicked')
-}
+// function dim(e) {
+//     e.target.classList.remove('dim')
+// }
 //function when each button is clicked. 
 function purpleClicked(e) {
     userClicks.push("purple")
     lightUp(e)
     console.log(userClicks);
-    compareCLicks();
-    
+    compareCLicks();  
 }
 function orangeClicked(e) {
     userClicks.push("orange")
@@ -88,7 +82,6 @@ function blueClicked(e) {
     compareCLicks();
 }
 function redClicked(e) {
-
     userClicks.push("red")
     lightUp(e)
     console.log(userClicks)
