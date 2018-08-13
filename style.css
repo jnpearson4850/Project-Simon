@@ -16,7 +16,7 @@ body {
     cursor: crosshair;
 }
 #myBtn {
-    background-color:rgba(236, 19, 19, 0.5); 
+    background-color:black; 
     margin: 0px 0px 0px 1300px;
     border: whitesmoke 1px solid;
     color: white;
@@ -142,7 +142,7 @@ body {
     margin: auto 100px;
 }
 #start{
-    background-color:rgba(236, 19, 19, 0.5); 
+    background-color:black; 
     border: whitesmoke 1px solid;
     color: white;
     padding: 15px 32px;
@@ -155,7 +155,7 @@ body {
     border-radius: 25px;
 }
 #nextLevel {
-    background-color:rgba(236, 19, 19, 0.5); 
+    background-color:black; 
     border: whitesmoke 1px solid;
     color: white;
     padding: 15px 32px;
@@ -168,7 +168,7 @@ body {
     border-radius: 25px;
 }
 #reset {
-    background-color:rgba(236, 19, 19, 0.5); 
+    background-color:black; 
     border: whitesmoke 1px solid;
     color: white;
     padding: 15px 32px;
