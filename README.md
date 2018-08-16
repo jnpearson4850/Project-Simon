@@ -1,33 +1,31 @@
 # Project-Simon
-##**Simon-Memory Game Project 1**
+**Simon Says Memory Game**
+Link to the live Page- https://jnpearson4850.github.io/Project-Simon/ 
+** Best viewed with page at full scale and 50% zoom out on computer screen
 
-##**Description**
+**Description**
 
 This project is a simple Simon says game. Where the computer generates a random assortment
 of colors. It is then your turn to copy what the computer iterated. You continue to advance until 
-you get one round wrong. At that point the computer logs your high score. 
-
-This project solves the age-old problem of forgetting where you left your keys....By making you exercise that 
-memory muscle. Science!!!
+you get one round wrong. At that point turn the controls over to a free and see who gets futher. 
 
 
-##**Brief Example**
+**Brief Example**
 
-Unfortunately I do not have an example. I was only able to complete the HTML/CSS and add function to the "Start and "Try again" button. 
+Here is a static screen shot of the game. 
 
-##**List of Features**
+![alt text](Screen Shot 2018-08-10 at 11.32.46 PM.png "Simon Says Screen grab")
 
-This game has a sweet background and a cool formation for the rings. 
 
-##**List of Technologies used**
+**List of Features**
 
-HTML/CSS/Javascript
+This game has a sweet background and a cool formation for the rings. The user can click on "directions" if at any point they forget what to do. 
 
-##**Getting Started**
+**List of Technologies used**
 
-Very simple. You click the "Start Game" button. After that you do what Simon Says. In theory it would have 
-tracked how many levels you completed and gave you a high score. 
+HTML5/CSS3/Javascript
 
-##**Contribution Guidelines**
+**Getting Started**
 
-The project visuals are good to go. I need help creating the event clicks that track what the user did and compares it to the computer generated colors. 
+User clicks on "Start Game" and that point the computer generates a random assortment of colors. The user matches the random array by clicking on the colors in order. If they get the array right, an alert box will pop up saying "Great Job, click try again then next level." if they get the array wrong an alert box will appear saying "Wrong, click try again to start over."
+
