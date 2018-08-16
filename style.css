@@ -87,6 +87,13 @@ body {
     border-color: #ffc600;
     box-shadow: 0 0 10rem whitesmoke;
 } */
+
+ /* right now not needed */
+/* @keyframes pulse {
+    0% { box-shadow:0 0 128px #ffffff, inset 0 0 128px #ffffff; }
+    50% { box-shadow:0 0 16px #ffffff, inset 0 0 14px #ffffff; }
+    100% { box-shadow:0 0 8px #ffffff, inset 0 0 8px #ffffff; }
+  } */
 #circle1 {
   height: 350px;
   width: 350px;
@@ -95,6 +102,7 @@ body {
   background-color: rgba(0, 128, 0, .5);
   grid-column-start: 3;
   grid-row: 3;
+  /* -webkit-animation: pulse 2s linear 1s infinite; */
 }
 
 #circle2{
@@ -105,6 +113,7 @@ body {
   background-color: rgba(255,0,0,.2);
   grid-column-start: 4;
   grid-row-start: 4;
+  /* -webkit-animation: pulse 2s linear 1s infinite; */
 
 }
 #circle3 {
@@ -115,6 +124,7 @@ body {
   background-color: rgba(0,0,255,.2);
   grid-column-start: 5;
   grid-row-start: 3;
+  /* -webkit-animation: pulse 2s linear 1s infinite; */
 }
 #circle4 {
     height: 350px;
@@ -124,6 +134,7 @@ body {
   background-color: rgba(255,165,0,.2);
   grid-column-start: 6;
   grid-row-start: 4;
+  /* -webkit-animation: pulse 2s linear 1s infinite; */
 
 }
 #circle5 {
@@ -134,6 +145,7 @@ body {
   background-color: rgba(128,0,128,.2);
   grid-column-start: 7;
   grid-row-start: 3;
+  /* -webkit-animation: pulse 2s linear 1s infinite; */
 }
 .function{
     display: flex;
