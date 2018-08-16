@@ -1,14 +1,13 @@
 # Project-Simon
 **Simon Says Memory Game**
-Link to the live Page- https://jnpearson4850.github.io/Project-Simon/
+Link to the live Page- https://jnpearson4850.github.io/Project-Simon/ 
+** Best viewed with page a full scale and 50% zoom out on computer screen
 
 **Description**
-
 
 This project is a simple Simon says game. Where the computer generates a random assortment
 of colors. It is then your turn to copy what the computer iterated. You continue to advance until 
 you get one round wrong. At that point turn the controls over to a free and see who gets futher. 
-
 
 
 **Brief Example**
