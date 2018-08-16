@@ -1,7 +1,7 @@
 # Project-Simon
 **Simon Says Memory Game**
 Link to the live Page- https://jnpearson4850.github.io/Project-Simon/ 
-** Best viewed with page a full scale and 50% zoom out on computer screen
+** Best viewed with page at full scale and 50% zoom out on computer screen
 
 **Description**
 
