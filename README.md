@@ -12,9 +12,10 @@ you get one round wrong. At that point turn the controls over to a free and see 
 
 **Brief Example**
 
-Here is a static screen shot of the game. 
+Here is a static screen shot of the game.
 
-![alt text](Screen Shot 2018-08-10 at 11.32.46 PM.png "Simon Says Screen grab")
+Inline-style: 
+![alt text] (https://jnpearson4850.github.io/Project-Simon/)
 
 
 **List of Features**
