@@ -14,7 +14,7 @@ you get one round wrong. At that point turn the controls over to a free and see 
 
 Here is a static screen shot of the game:
 
-![Image description](Screen Shot 2018-08-10 at 11.32.46 PM.png)
+![Simon Says](Screen Shot 2018-08-10 at 11.32.46 PM.png)
 
 
 **List of Features**
