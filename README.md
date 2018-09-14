@@ -14,7 +14,7 @@ you get one round wrong. At that point turn the controls over to a free and see 
 
 Here is a static screen shot of the game:
 
-!(https://github.com/jnpearson4850/Project-Simon/blob/master/Screen%20Shot%202018-08-28%20at%2011.32.38%20AM.png)
+![alt text](https://github.com/jnpearson4850/Project-Simon/blob/master/Screen%20Shot%202018-08-28%20at%2011.32.38%20AM.png)
 
 
 **List of Features**
